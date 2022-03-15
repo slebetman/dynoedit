@@ -1,5 +1,5 @@
 {
-  "name": "dynosaur",
+  "name": "dynoedit",
   "version": "1.0.0",
   "description": "A simple DynamoDB GUI client",
   "main": "index.js",

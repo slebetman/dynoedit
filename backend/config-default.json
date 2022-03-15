@@ -1,0 +1,9 @@
+// This is a cjson file. Unlike a regular json file it can include comments.
+
+// HOW TO USE THIS FILE
+// Create another file named config.json in the same directory and
+// set your configurations there. The "config.json" file will override
+// this file but will never be comitted to the repo.
+{
+	"port": 3001
+}

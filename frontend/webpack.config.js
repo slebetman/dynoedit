@@ -28,6 +28,7 @@ module.exports = {
 	plugins: [htmlPlugin],
 	devServer: {
 		compress: true,
-		allowedHosts: 'all'
+		allowedHosts: 'all',
+		port: 3000
 	}
 };

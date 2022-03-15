@@ -21,11 +21,7 @@ You can access backend APIs via http://localhost:3001.
 
 The server will reload when you make changes.
 
-## `npm run build-frontend`
+### `npm run build-frontend`
 
 Builds the frontend for production to the build folder.
 It correctly bundles React in production mode.
-
-## Development
-
-The software is split into two parts

@@ -54,7 +54,7 @@ class FileDB {
 	}
 
 	open (name) {
-		return new FileData(this.DIRPATH,name);
+		return new FileData(this.DIRPATH, name);
 	}
 
 	load (name) {
@@ -63,7 +63,9 @@ class FileDB {
 	}
 
 	new (name) {
-		const f = new FileData(normalPath(this.DIRPATH, `${name}.json`));
+		const f = new FileData(this.DIRPATH, name);
+		console.log(normalPath(this.DIRPATH, 'json.template'));
+		console.log('FULL PATH = ',f.full_path);
 		return f.loadFromTemplate(normalPath(this.DIRPATH, 'json.template'));
 	}
 

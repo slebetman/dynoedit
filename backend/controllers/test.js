@@ -1,6 +1,6 @@
 
 /**
- * Controller for notes
+ * Test controller
  * @param {express.Router} app 
  */
  module.exports = function (app) {

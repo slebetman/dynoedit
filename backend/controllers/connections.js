@@ -22,9 +22,14 @@ module.exports = function (app) {
 		const name = req.params.name;
 
 		try {
+			const conn = await connections.load(name);
+
 			res.json({
 				success: true,
-				connection: await connections.load(name)
+				connection: {
+					name: conn.name,
+					...conn.data,
+				}
 			})
 		}
 		catch (err) {

@@ -6,6 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "frontend": "./scripts/frontend.js",
+    "build-frontend": "./scripts/build-frontend.js",
     "backend": "./scripts/backend.js",
     "start": "./scripts/start.js"
   },

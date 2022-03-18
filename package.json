@@ -5,9 +5,9 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "frontend": "cd frontend; webpack serve --config webpack.config.js",
-    "build-frontend": "cd frontend; webpack build --config webpack.config.js",
-    "backend": "cd backend; nodemon main.js"
+    "frontend": "./scripts/frontend.js",
+    "backend": "./scripts/backend.js",
+    "start": "./scripts/start.js"
   },
   "author": "",
   "license": "GPL-2.0-only",
